@@ -8,7 +8,7 @@ from haiku import Haiku
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 sys.stderr = codecs.getwriter('utf-8')(sys.stderr)
 
-for line in open('sample'):
+for line in open('data/sample'):
   if not line.strip():
     continue
 
